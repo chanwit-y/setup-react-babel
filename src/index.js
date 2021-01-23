@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import { render } from "react-dom";
 
 function App() {
-  console.log("Hello webpack!");
+  console.lo1g("Hello webpack!");
   const [state, setState] = useState("CLICK ME");
+
+  const onTest = () => {
+    console.log('test');
+  }
 
   return (
     <button

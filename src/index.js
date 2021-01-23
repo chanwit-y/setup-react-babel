@@ -9,6 +9,10 @@ function App() {
     console.log('test');
   }
 
+  const onTest3 = () => {
+    console.log('test');
+  }
+
   return (
     <button
       onClick={() => {

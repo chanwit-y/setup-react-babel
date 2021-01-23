@@ -17,6 +17,10 @@ function App() {
     console.log('test');
   }
 
+  const onTest4 = () => {
+    console.log('test');
+  }
+
   return (
     <button
       onClick={() => {

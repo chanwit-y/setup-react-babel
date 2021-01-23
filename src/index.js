@@ -13,6 +13,10 @@ function App() {
     console.log('test');
   }
 
+  const onTest1 = () => {
+    console.log('test');
+  }
+
   return (
     <button
       onClick={() => {
@@ -20,7 +24,7 @@ function App() {
         console.log("Hello webpack!");
       }}
     >
-      {state}
+      {state}``
     </button>
   );
 }
